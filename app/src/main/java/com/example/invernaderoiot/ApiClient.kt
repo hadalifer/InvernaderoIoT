@@ -5,8 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    private const val BASE_URL =
-        "https://clr5up92zk.execute-api.us-east-1.amazonaws.com/prod/"
+    private const val BASE_URL = ""
+      // Url de la Api, por seguridad la borre.
 
     val api: InvernaderoApi by lazy {
         Retrofit.Builder()
